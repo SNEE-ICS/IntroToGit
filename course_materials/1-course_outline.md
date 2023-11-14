@@ -29,12 +29,12 @@ We will cover the following topics:
 - Why use Github and Gitea?
 
 ### Basic Git concepts
-- `branch` and `checkout`
-- `add`
-- `commit`
-- `push`
-- `pull`
-- `clone`
+- Initialising and cloning a repository
+- Working with branches
+- Staging changes
+- Comitting changes
+- Sharing changes with your remote repository
+- Updating your local repository
 
 ### Working Collaboratively on Github and Gitea
 - Issues
