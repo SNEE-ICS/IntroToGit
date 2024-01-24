@@ -1,10 +1,4 @@
-# Practical tasks
-
-## 1. Make a remote repository
-
-## 2. Clone a repository (plus intro to VS code)
-
-### VS Code
+# Intro to VS code
 
 Visual Studio Code (VS Code) is a lightweight but powerful source code editor that runs across your desktop and is available for Windows, macOS, and Linux. It is developed by Microsoft and is free to use. VS Code has become a popular choice for developers of all levels due to its extensive features, rich ecosystem of extensions, and user-friendly interface.
 
@@ -28,7 +22,6 @@ Visual Studio Code (VS Code) is a lightweight but powerful source code editor th
 
 ### How to use VS Code:
 
-[Presenter: Demonstrate and point to screen]
 #### The default UI of Visual Studio Code (VS Code) consists of several key elements:
 
 **Activity Bar:** Located on the left side of the window, the Activity Bar provides quick access to common actions, such as opening files, searching for symbols, and managing Git repositories.
@@ -46,36 +39,3 @@ Visual Studio Code (VS Code) is a lightweight but powerful source code editor th
 **Command Palette:** Accessible through the keyboard shortcut (Ctrl+Shift+P or Cmd+Shift+P), the Command Palette allows you to quickly search for and execute specific actions within VS Code.
 
 This simplified overview outlines the essential elements of VS Code's default UI, providing a starting point for understanding its layout and navigating its features.
-
-### Cloning a Repository from Gitea
-
-#### Cloning Using the Gitea UI & Command line
-Locate the repository you want to clone. Navigate to the repository you want to clone on the Gitea instance.
-
-1. Click the "Clone" button. The "Clone" button is located in the top right corner of the repository page.
-
-2. Choose the cloning method. Gitea offers two cloning methods: HTTPS and SSH. HTTPS is the more common and straightforward method, while SSH is more secure and requires setting up SSH keys.
-a. **In reality, most organisations use the HTTPS method.**
-
-a. HTTPS Cloning: Select the HTTPS URL and copy it to your clipboard.
-
-b. SSH Cloning: Copy the SSH URL to your clipboard. If you haven't set up SSH keys, you'll need to generate them and follow the instructions provided on the Gitea page.
-
-3. Clone the repository locally using the git clone command. 
-a. Open a terminal window or your preferred Git client (like Visual Studio Code). 
-b. Make sure that you are in a good directory to clone your repository (preferablly the `C:\` drive in `documents\repos` etc.)
-c. Paste the copied URL into the terminal or Git client and execute the git clone command. 
-For example, if you copied the HTTPS URL, the command would be:
-
-```bash
-git clone https://[gitea-instance-url]/[organization]/[repository-name].git
-```
-
-4. Hit enter! You have just cloned your first repository.
-
-
-## 3. Getting remote and local repositories to talk
-
-## 4. Add a .gitignore file, plus branching and merging
-
-## 5. Working collaboratively
