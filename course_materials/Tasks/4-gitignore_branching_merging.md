@@ -1,0 +1,1 @@
+# Add a `.gitignore` file, plus branching and merging
