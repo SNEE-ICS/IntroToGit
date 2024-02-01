@@ -2,7 +2,7 @@
 
 You are going to contribute a new file to this 'introtogit' repository.  To do this, we will work through the process of i) creating an issue describing what you want to add to the repository, ii) creating a branch to address that issue, and iii) creating a pull request to merge your branch into the main branch (and close the issue automatically)
 
-1. Decide what you would like to contribute to the [code](code) folder. This should be either i) a SQL script, ii) and R script, or iii) a python script. It can be a simple function, a basic piece of code, or a simple select query. The code itself doesn't matter here, we're illustrating the principle of how lots of people can work on the same repository at the same time.
+1. Decide what you would like to contribute to the [code](../../code) folder. This should be either i) a SQL script, ii) and R script, or iii) a python script. It can be a simple function, a basic piece of code, or a simple select query. The code itself doesn't matter here, we're illustrating the principle of how lots of people can work on the same repository at the same time.
 
 2. Create an issue describing what you are going to create. Again this is a toy example, but use the opportunity to think about what makes good issue writing. Describe clearly what you are going to make and why it is useful. Save the issue, add any labels if you think that is appropriate, and assign yourself.
 
@@ -31,4 +31,4 @@ git branch -d [your-branchname]
 
 ```
 
-The process then repeats from here
+The process then repeats from here!
