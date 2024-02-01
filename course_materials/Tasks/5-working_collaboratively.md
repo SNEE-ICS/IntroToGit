@@ -6,11 +6,15 @@ You are going to contribute a new file to this 'introtogit' repository.  To do t
 
 2. Create an issue describing what you are going to create. Again this is a toy example, but use the opportunity to think about what makes good issue writing. Describe clearly what you are going to make and why it is useful. Save the issue, add any labels if you think that is appropriate, and assign yourself.
 
-3. Clone this repository, using what you have learned from previous exercises, and open the folder in VS Code. Create a new branch related to your issue. It is good practise to name your branch so that users can easily link to an issue, using the issue number. So, for example, if your created issue number #2 and it contained query that counted patients by SubICB, you could call it `2-subicb-counts`. The code to do this is in the previous exercise.
+3. Clone this repository, using what you have learned from previous exercises, and open the folder in VS Code. 
+
+4. Create a new branch related to your issue on Gitea. To do this, go to your repository, then click 'branches', then click the branch icon in the 'main' repository section, and name your branch. It is good practise to name your branch so that users can easily link to an issue, using the issue number. So, for example, if your created issue number #2 and it contained query that counted patients by SubICB, you could call it `2-subicb-counts`.
+
+5. In Code, use `git pull` to pick up the new remote branch you have created, then `git checkout [branchname]` to switch to that branch
 
 4. Create your new script and write your code, save it and use 'git status' to check that git is detecting your new file.
 
-5. Add and commit your new file. Then push, using `--set-upstream` to create a remote version of your new branch.
+5. Add and commit your new file. Then push your updated branch to Gitea.
 
 6. Go back to Gitea and click on 'branches' from the main repository page. You should see your branch there, and an option for 'new pull request'. Click this. In the description box, add a sentence about what your pull request does. Additionally/instead, you can write 'Closes #X', where X is the number of the issue that you created that describes your planned work. 'Closes' is a special work in Github and Gitea, and when followed by a link to an issue (the '#' character preceding a number tells Gitea you are referring to an issue), you can link the issue to the pull request explicitly. Click 'create pull request' then assign an appropriate reviewer.
 
